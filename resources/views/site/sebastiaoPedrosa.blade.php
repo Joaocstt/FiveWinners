@@ -22,11 +22,15 @@
                         </tr>
                         </thead>
                         <tbody>
-
                         @php
                             $position = ($allStudents->currentPage() - 1) * $allStudents->perPage() + 1;
                         @endphp
 
+                        @if($allStudents->count() === 0)
+                            <tr>
+                                <td colspan="3">Nenhum aluno foi cadastrado!</td>
+                            </tr>
+                        @endif
                         @foreach($allStudents as $student)
                             <tr>
 

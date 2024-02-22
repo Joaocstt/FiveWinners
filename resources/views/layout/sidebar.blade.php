@@ -1,7 +1,7 @@
 <div class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">
         <div>
-            <img src="{{asset('assets/images/logo-icon.png')}}" class="logo-icon" alt="logo icon">
+{{--            <img src="{{asset('assets/images/logo-icon.png')}}" class="logo-icon" alt="logo icon">--}}
         </div>
         <div>
             <h4 class="logo-text">FiveWin</h4>
@@ -46,7 +46,7 @@
                 <a href="{{route('site.contacts')}}">
                     <div class="parent-icon"><i class="bx bxs-contact"></i>
                     </div>
-                    <div class="menu-title">Alunos</div>
+                    <div class="menu-title">Membros</div>
                 </a>
             </li>
         @endauth
@@ -87,12 +87,12 @@
             <ul>
                 <li><a class="has-arrow" href="javascript:;"><i class='bx bx-radio-circle'></i>Sebastião Pedrosa</a>
                     <ul>
-                        <li><a href="{{route('admin.sebastiao-pedrosa.users')}}" target="_blank"><i class='bx bx-radio-circle'></i>Alunos</a></li>
+                        <li><a href="{{route('admin.sebastiao-pedrosa.users')}}" ><i class='bx bx-radio-circle'></i>Alunos</a></li>
                     </ul>
                 </li>
                 <li><a class="has-arrow" href="javascript:;"><i class='bx bx-radio-circle'></i>Boa União</a>
                     <ul>
-                        <li><a href="{{route('admin.boa-uniao-users')}}" target="_blank"><i class='bx bx-radio-circle'></i>Alunos</a></li>
+                        <li><a href="{{route('admin.boa-uniao-users')}}"><i class='bx bx-radio-circle'></i>Alunos</a></li>
                     </ul>
                 </li>
             </ul>

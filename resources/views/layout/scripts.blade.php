@@ -13,7 +13,7 @@
 <!--notification js -->
 <script src="{{asset('assets/plugins/notifications/js/lobibox.min.js')}}"></script>
 <script src="{{asset('assets/plugins/notifications/js/notifications.min.js')}}"></script>
-<script src="{{asset('assets/js/index3.js')}}"></script>
+<script src="{{asset('assets/js/index.js')}}"></script>
 
 <!--app JS-->
 <script src="{{asset('assets/js/app.js')}}"></script>

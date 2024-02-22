@@ -1,5 +1,5 @@
 <!--start page wrapper -->
-<div class="page-wrapper bg-white">
+<div class="page-wrapper {{!auth()->user() ? 'bg-white' : ''}}">
     <div class="page-content">
         <div class="jumbotron rounded-3">
             <div class="container-fluid py-5">
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col mx-auto text-center">
-                    <img class="img-responsive" src="{{asset('assets/images/undraw_My_personal_files_re_3q0p.png')}}" width="630">
+                    <img class="img-fluid" src="{{ asset('assets/images/undraw_My_personal_files_re_3q0p.png') }}" width="630" alt="Imagem Responsiva">
                 </div>
             </div>
         </div>
