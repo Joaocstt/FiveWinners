@@ -101,7 +101,7 @@
             <a class="has-arrow" href="javascript:;">
                 <div class="parent-icon"><i class="bx bx-lock"></i>
                 </div>
-                <div class="menu-title">Gerenciar Site</div>
+                <div class="menu-title">Gerenciar Site</div>i
             </a>
             <ul>
                 <li><a class="has-arrow" href="javascript:;"><i class='bx bx-radio-circle'></i>Página Inicial</a>
